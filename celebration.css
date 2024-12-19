@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contain header{
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.182);
+}
+.contain header nav{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.contain header nav .logo{
+    width: 40%;
+    height: 100%;
+}
+.contain header nav .logo img{
+    width: 35vh;
+    height: 100%;
+    margin-left: 10%;
+}
+.contain header nav ul{
+    list-style: none;
+    width: 180%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contain header nav ul a{
+    text-decoration: none;
+    color: #8B4513;
+    font-size: 18px;
+}
+.contain header nav ul a:hover{
+    border-bottom: 3px solid #8B4513;
+    padding: 0px 0px 25px 0px;
+}
+.burger{
+    display: none;
+}
+.boxss{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0;
+    margin-top: 5%;
+}
+.boxss .box1{
+    height: 40vh;
+    width: 22vw;
+    margin-top: 5%;
+    background-image: url(pic1.jpg);
+    background-size: cover;
+}
+.boxss .box1 h2{
+    height: fit-content;
+    background-color: #FFFFFF;
+    color: #ae432d;
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 85%;
+}
+.boxss .box1 h2 a{
+    color: #ae432d;
+    font-size: 25px;
+}
+.boxss .box1 h3{
+    background-color: #ae432d;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5%;
+    padding-left: 30%;
+    height: 20%;
+    margin-top: -3%;
+}
+.boxss .box1 h3 svg{
+    margin-left: -10%;
+}
+.boxss .box1 h3 b{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-left: 3%;
+}
+.boxss .box2{
+    height: 40vh;
+    width: 22vw;
+    margin-top: 5%;
+    background-image: url(pic2.jpg);
+    background-size: cover;
+}
+.boxss .box2 h2{
+    height: fit-content;
+    background-color: #FFFFFF;
+    color: #ae432d;
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 85%;
+}
+.boxss .box2 h2 a{
+    color: #ae432d;
+    font-size: 25px;
+}
+.boxss .box2 h3{
+    background-color: #ae432d;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5%;
+    padding-left: 30%;
+    height: 20%;
+    margin-top: -3%;
+}
+.boxss .box2 h3 svg{
+    margin-left: -10%;
+}
+.boxss .box2 h3 b{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-left: 3%;
+}
+.boxss .box3{
+    height: 40vh;
+    width: 22vw;
+    margin-top: 5%;
+    background-image: url(pic3.jpg);
+    background-size: cover;
+}
+.boxss .box3 h2{
+    height: fit-content;
+    background-color: #FFFFFF;
+    color: #ae432d;
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 85%;
+}
+.boxss .box3 h2 a{
+    color: #ae432d;
+    font-size: 25px;
+}
+.boxss .box3 h3{
+    background-color: #ae432d;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5%;
+    padding-left: 30%;
+    height: 20%;
+    margin-top: -3%;
+}
+.boxss .box3 h3 svg{
+    margin-left: -10%;
+}
+.boxss .box3 h3 b{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-left: 3%;
+}
+.boxx{
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10%;
+}
+.boxx .box4{
+    height: 40vh;
+    width: 22vw;
+    margin-top: 5%;
+    background-image: url(pic4.jpg);
+    background-size: cover;
+}
+.boxx .box4 h2{
+    height: fit-content;
+    background-color: #FFFFFF;
+    color: #ae432d;
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 85%;
+}
+.boxx .box4 h2 a{
+    color: #ae432d;
+    font-size: 25px;
+}
+.boxx .box4 h3{
+    background-color: #ae432d;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5%;
+    padding-left: 30%;
+    height: 20%;
+    margin-top: -3%;
+}
+.boxx .box4 h3 svg{
+    margin-left: -10%;
+}
+.boxx .box4 h3 b{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-left: 3%;
+}
+.boxx .box5{
+    height: 40vh;
+    width: 22vw;
+    margin-top: 5%;
+    background-image: url(pic5.jpg);
+    background-size: cover;
+}
+.boxx .box5 h2{
+    height: fit-content;
+    background-color: #FFFFFF;
+    color: #ae432d;
+    font-size: 20px;
+    padding: 5%;
+    margin-top: 85%;
+}
+.boxx .box5 h2 a{
+    color: #ae432d;
+    font-size: 25px;
+}
+.boxx .box5 h3{
+    background-color: #ae432d;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 5%;
+    padding-left: 30%;
+    height: 20%;
+    margin-top: -3%;
+}
+.boxx .box5 h3 svg{
+    margin-left: -10%;
+}
+.boxx .box5 h3 b{
+    color: #FFFFFF;
+    font-size: 26px;
+    margin-left: 3%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ ul{
+    list-style: none;
+ }
+ .footer{
+    background-color:#d35400;
+    padding: 70px 0;
+    height: 60vh;
+    margin-top: -25%;
+}
+ .footer-col{
+    width: 25%;
+    padding-left: 3%;
+    padding-right: 1%;
+ }
+ .footer-col h4{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+    margin-left: -10px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #6e2c00;
+    height: 2px;
+    box-sizing: border-box;
+    width: 90px;
+}
+.footer-col .p{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 13px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: black;
+}
+.footer-col .social-icons a{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: snow;
+    margin-left: 5%;
+}
+.last{
+    height: 18%;
+    width: 100%;
+    color: snow;
+    background-color: #6e2c00 ;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1%;
+}
+/* @media all and (max-width:1024px){
+    body{
+        height: 50vh;
+    }
+    .contain header nav{
+        height: 15vh;
+        width: 100%;
+    }
+    .contain header nav ul{
+        display: none;
+        border: 1px solid black; 
+    }
+    .contain header nav .logo{
+        margin-left: 10%;
+    }
+    .contain header nav .logo img{
+        height: 100%;
+        width: 150%;
+    }
+    .burger{
+        display: block;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 10%;
+    }
+    .boxss{
+        margin-top: 0%;
+        height: 38vh;
+    }
+    .boxss .box1{
+        height: 50%;
+        width: 30%;
+        margin-top: 4%;
+    }
+    .boxss .box2{
+        height: 50%;
+        width: 30%;
+        margin-top: 4%;
+    }
+    .boxss .box3{
+        height: 50%;
+        width: 30%;
+        margin-top: 4%;
+    }
+    .boxx{
+        margin-top: 0%;
+        height: 38vh;
+    }
+    .boxx .box4{
+        height: 50%;
+        width: 30%;
+        margin-top: 4%;
+    }
+    .boxx .box5{
+        height: 50%;
+        width: 30%;
+        margin-top: 4%;
+    }
+    .footer{
+        margin-top: 0%;
+        height: 40vh;
+        width: 100%;
+    }
+    .footer-col h4{
+        font-size: 25px;
+    }
+    .footer-col h4::before{
+        color: black;
+        width: 90%;
+    }
+    .footer-col .p{
+        color: #FFFFFF;
+        font-size: 17px;
+        padding-right: 5%;
+        justify-content: center;
+    }
+    .footer-col .social-icons a{
+        color: #FFFFFF;
+        font-size: 25px;
+        margin-left: 15%;
+    }
+    .last{
+        height: 20%;
+        padding-top: 2%;
+        font-size: 30px;
+    }
+} */
+@media all and (max-width:576px){
+        body{
+            background: none;
+        }
+        .contain header nav{
+            height: 20vh;
+            width: 100%;
+        }
+        .contain header nav .logo{
+            height: 20vh;
+            width: 70%;
+        }
+        .contain header nav .logo img{
+            width: 80%;
+            height: 19vh;
+            margin-left: 3%;
+        }
+        .contain header nav ul{
+            display: none;
+        }
+        .burger{
+            display: block;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-right: 5%;
+        }
+        .boxss{
+            width: 90%;
+            height: auto;
+            background: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 10%;
+        }
+        .boxss .box1{
+            height: 200%;
+            width: 80%;
+            background-size: contain;
+            margin-top: 2%;
+            margin-left: 17%;
+        }
+        .boxss .box1 h2{
+            height: 30%;
+            width: 100%;
+            font-size: 18px;
+        }
+        .boxss .box1 h3{
+            height: 18%;
+            width: 100%;
+            padding-left: 25%;
+        }
+        .boxss .box2{
+            height: 200%;
+            width: 80%;
+            background-size: contain;
+            margin-top:10%;
+            margin-left: 17%;
+        }
+        .boxss .box2 h2{
+            height: 30%;
+            width: 100%;
+            font-size: 18px;
+        }
+        .boxss .box2 h3{
+            height: 18%;
+            width: 100%;
+            padding-left: 5%;
+            padding-left: 25%;
+        }
+        .boxss .box3{
+            display: block;
+            height: 200%;
+            width: 80%;
+            background-size: contain;
+            margin-top: 10%;
+            margin-left: 17%;
+        }
+        .boxss .box3 h2{
+            height: 30%;
+            width: 100%;
+            font-size: 18px;
+        }
+        .boxss .box3 h3{
+            height: 18%;
+            width: 100%;
+            padding-left: 5%;
+            padding-left: 25%;
+        }
+        .boxx{
+            width: 90%;
+            height: auto;
+            background: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 5%;
+        }
+        .boxx .box4{
+            height: 200%;
+            width: 80%;
+            background-size: contain;
+            margin-top: 2%;
+            margin-left: 17%;
+        }
+        .boxx .box4 h2{
+            height: 30%;
+            width: 100%;
+            font-size: 18px;
+        }
+        .boxx .box4 h3{
+            height: 18%;
+            width: 100%;
+            padding-left: 5%;
+            padding-left: 25%;
+        }
+        .boxx .box5{
+            height: 200%;
+            width: 80%;
+            background-size: contain;
+            margin-top:10%;
+            margin-left: 17%;
+        }
+        .boxx .box5 h2{
+            height: 30%;
+            width: 100%;
+            font-size: 18px;
+        }
+        .boxx .box5 h3{
+            height: 18%;
+            width: 100%;
+            padding-left: 5%;
+            padding-left: 25%;
+        }
+        .footer{
+            margin-top: -2%;
+            background: none;
+            border: none;
+        }
+        .footer-col{
+            width: 100%; 
+            height: auto;   
+            margin-bottom: 30px;
+        }
+        .footer-col h4{
+            color: black;
+            margin-left: 5%;
+            z-index: -1;
+        }
+        .footer-col h4::before{
+            display: none;
+        }
+        .footer-col .p{
+            color: black;
+        }
+        .footer-col ul li a{
+            color: black;
+            margin-left: 10%;
+        }
+        .footer-col .social-icons a{
+            color: black;
+            font-size: 30px;
+            margin-left: 25%;
+        }
+        .footer-col .p{
+            margin-left: 5%;
+        }
+        .last{
+            height: 40%;
+            width: 105%;
+            color: rgb(255, 253, 253);
+            background-color: rgb(10, 10, 10);
+            margin-left: -5%;
+            font-size: 20px;
+            padding-top: 10%;
+        }
+}
